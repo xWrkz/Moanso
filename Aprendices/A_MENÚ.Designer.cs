@@ -58,6 +58,7 @@
             this.A_lbl_nom = new System.Windows.Forms.Label();
             this.A_lbl_cod = new System.Windows.Forms.Label();
             this.t_Registro = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.A_LOGO)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.A_dgv_LISTA)).BeginInit();
             this.A_panelDegradado1.SuspendLayout();
@@ -405,12 +406,22 @@
             this.t_Registro.TabIndex = 6;
             this.t_Registro.Text = "REGISTRO DE MEDICAMENTOS";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(512, 195);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // A_MENÚ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(238)))), ((int)(((byte)(237)))));
             this.ClientSize = new System.Drawing.Size(1077, 718);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.A_btn_ORDENARFILA);
             this.Controls.Add(this.A_panelDegradado1);
             this.Controls.Add(this.A_dgv_LISTA);
@@ -458,5 +469,6 @@
         private System.Windows.Forms.Button A_btn_SEARCH;
         private System.Windows.Forms.TextBox A_txt_search;
         private System.Windows.Forms.Button A_btn_ORDENARFILA;
+        private System.Windows.Forms.Button button1;
     }
 }
