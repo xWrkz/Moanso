@@ -23,7 +23,7 @@ namespace Aprendices
             public int A_cantidad;
             public decimal A_precioUnitario;
 
-
+            //Hola Marco :D
         }
         List<Medicamento> listaMedicamentos = new List<Medicamento>();
         public A_MENÚ()
